@@ -1,0 +1,11 @@
+--GAZ NATUREL@%@GAZ NATUREL
+,
+repographie@%@repographie,
+taxes payées par erreur@%@taxes payées par erreur,
+--Immeuble@%@Immeuble
+,
+stationnement@%@stationnement,
+caféteria@%@caféteria,
+--Extra@%@Extra
+,
+immobilisation@%@immobilisation,
