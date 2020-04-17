@@ -205,10 +205,6 @@ class App(QWidget):
         item = model.invisibleRootItem()
         model.removeRow(b)
 
-
-
-
-
 # --------------------------------------------------------------------------------------------------------------------
     def ApplyButton(self):
         #self.save_item()
@@ -250,6 +246,8 @@ class App(QWidget):
         options = PyQt5.QtWidgets.QFileDialog.Options()
 
         file, _ = PyQt5.QtWidgets.QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","CV(*.docx);", options=options)
+        options = PyQt5.QtWidgets.QFileDialog.Options()
+        file, _ = PyQt5.QtWidgets.QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","All Files (*);;Python Files (*.py)", options=options)
         return file
 
 
